@@ -27,7 +27,7 @@ mypy = "^1.8"
 
 wemake-python-styleguide = "^0.18"
 flake8-pytest-style = "^1.6"
-nitpick = "^0.34"
+nitpick = "^0.35"
 
 pytest = "^8.0"
 pytest-cov = "^4.1"
@@ -38,7 +38,7 @@ optional = true
 
 [tool.poetry.group.docs.dependencies]
 sphinx = "^7.1"
-sphinx-autodoc-typehints = "^1.25"
+sphinx-autodoc-typehints = "^2.0"
 m2r2 = "^0.3"
 tomli = "^2.0"
 doc8 = "^1.0"
