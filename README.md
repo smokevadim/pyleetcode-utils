@@ -28,9 +28,10 @@ from pyleetcode_utils.datatypes import tree
 
 
 class Solution:
-    @tree.make_tree
-    def findTarget(self, root: Optional[tree.TreeNode], k: int) -> bool:
-        ...
+  @tree.make_tree
+  def findTarget(self, root: tree.TreeNode, k: int) -> bool:
+    ...
+
 
 Solution().findTarget([5, 3, 6, 2, 4, null, 7], 9)
 ```
