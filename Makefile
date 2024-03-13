@@ -18,5 +18,8 @@ package:
 	poetry check
 	poetry run pip check
 
+.PHONY: test-local
+test-local: lint package unit
+
 .PHONY: test
-test: lint package unit
+test: lint lint-docs package unit
