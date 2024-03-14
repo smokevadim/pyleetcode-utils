@@ -1,12 +1,11 @@
 # pyleetcode-utils
 
+![Latest Release](https://img.shields.io/github/v/release/smokevadim/pyleetcode-utils?sort=semver)
 [![Build Status](https://github.com/smokevadim/pyleetcode-utils/actions/workflows/test.yml/badge.svg?event=push)](https://github.com/smokevadim/pyleetcode-utils/actions/workflows/test.yml/badge.svg?event=push)
 [![codecov](https://codecov.io/gh/smokevadim/pyleetcode-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/smokevadim/pyleetcode-utils)
 [![Python Version](https://img.shields.io/pypi/pyversions/pyleetcode-utils.svg)](https://pypi.org/project/pyleetcode-utils/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/smokevadim/pyleetcode-utils/blob/master/LICENSE)
-
-Python Leetcode utilities
 
 ## Features
 

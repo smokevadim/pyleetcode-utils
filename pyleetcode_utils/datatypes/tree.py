@@ -23,12 +23,12 @@ class TreeNode(object):
 def make_tree(func: Func) -> Func:
     """Decorator to convert List[int] to TreeNode."""
 
-    def _make_tree(source_list: List[int], current_level: int = 0) -> TreeNode:
-        current_value = source_list[current_level]
-        if (current_level * 2) + 2 > len(source_list):
+    def _make_tree(source_list: List[int], cur: int = 0) -> TreeNode:
+        current_value = source_list[cur]
+        if (cur * 2) + 2 > len(source_list):
             return TreeNode(current_value)
-        left = 1 if current_level == 0 else current_level * 2 + 1
-        right = 2 if current_level == 0 else current_level * 2 + 2
+        left = 1 if cur == 0 else cur * 2 + 1
+        right = 2 if cur == 0 else cur * 2 + 2
         return TreeNode(
             current_value,
             _make_tree(source_list, left),

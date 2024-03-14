@@ -3,7 +3,7 @@ from typing import Any, List, Tuple
 import pytest
 
 from pyleetcode_utils import exceptions
-from pyleetcode_utils import tree
+from pyleetcode_utils.datatypes import tree
 
 
 @tree.make_tree
