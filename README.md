@@ -1,6 +1,6 @@
 # pyleetcode-utils
 
-![Latest Release](https://img.shields.io/github/v/release/smokevadim/pyleetcode-utils?sort=semver)
+![Latest Version](https://img.shields.io/github/v/tag/smokevadim/pyleetcode-utils?sort=semver)
 [![Build Status](https://github.com/smokevadim/pyleetcode-utils/actions/workflows/test.yml/badge.svg?event=push)](https://github.com/smokevadim/pyleetcode-utils/actions/workflows/test.yml/badge.svg?event=push)
 [![codecov](https://codecov.io/gh/smokevadim/pyleetcode-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/smokevadim/pyleetcode-utils)
 [![Python Version](https://img.shields.io/pypi/pyversions/pyleetcode-utils.svg)](https://pypi.org/project/pyleetcode-utils/)
