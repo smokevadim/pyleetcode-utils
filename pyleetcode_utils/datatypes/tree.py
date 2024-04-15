@@ -45,8 +45,8 @@ def make_tree(func: Func) -> Func:
     def wrapper(*args: Any, **kwargs: Any) -> Any:
         try:
             new_args = prepare_new_args(args, **kwargs)
-            return func(*new_args, **kwargs)
         except Exception:
             raise exceptions.NotBinaryTreeError('Not valid binary tree has been provided!')
+        return func(*new_args, **kwargs)
 
     return wrapper  # type: ignore[return-value]
