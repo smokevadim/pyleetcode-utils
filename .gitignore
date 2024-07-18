@@ -218,3 +218,4 @@ fabric.properties
 .python-version
 /.idea/git_toolbox_prj.xml
 /dev/
+.idea
